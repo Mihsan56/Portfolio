@@ -1,0 +1,844 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Atlassian sans";
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color:#fbfbfe00 ;
+}
+.logo img{
+  width: 160px;
+}
+nav ul{
+  display: flex;
+  gap: 3vw;
+
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Krona One", serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.icon i{
+  border-radius: 50%;
+  border: 2px solid #ffffff ;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 5px;
+  transition: ease-in 1.2s;
+}
+.icon i:hover{
+  transform: rotate(-360deg);
+background-color:#FF5C00 ;
+color: #FBFBFE;
+border-bottom: 2px solid black;
+}
+ul li{
+  position: relative;
+  display: block;
+}
+ul li .drp li{
+  display: block;
+  font-size: 20px;
+  padding-top: 10px;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  
+}
+ul li ul.drp{
+  display: block;
+}
+ul li ul.drp{
+  display: none;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+height: 70px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 40px;
+border-bottom: 1px solid black;
+}
+ul li:hover ul.drp{
+  display: block;
+}
+
+                       /* mian */
+
+   main{
+    width: 100%;
+    height: 90vh;
+    margin-top: -80px;
+    background-image:linear-gradient(rgba(123, 160, 255, 0.312),rgba(129, 165, 255, 0.329)),url(portpolio/bghero.jpg) ;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }  
+   
+   .contant h2{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+   }
+   .contant h1{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    padding-top: 10px;
+   }
+   .contant p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 20px;
+   padding-top: 10px;
+   }
+   .contant button{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+  background-color:#FF5C00 ;
+  border: none;
+  margin-left: 260px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.5s;
+   }
+   .contant button:hover{
+    background-color:#6784FF ;
+
+   }
+
+
+             /* 2nd Section */
+
+     .secnd{
+      display: flex;
+      width: 100%;
+      height: 130vh;
+      background-color:#ECF6FA ;
+      justify-content: center;
+      align-items: center;
+      object-fit: cover;
+     }    
+     .img{
+      width: 40%;
+     }   
+     .img img{
+      width: 100%;
+      padding-top: 200px;
+     }
+     .cont{
+      width: 40%;
+     }
+     .cont h2{
+      color: #6784FF;
+      font-family: "Krona One", serif;
+      font-style: normal;
+      font-size: 32px;
+      font-weight: 500;
+     }
+     .cont h1{
+      color:black;
+      font-family: "Krona One", serif;
+      font-style: normal;
+      font-size: 22px;
+      font-weight: 500;
+      padding-top: 15px;
+      padding-bottom: 15px;
+     }
+     .cont p{
+      color: #777777;
+      font-size: 16px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 400;
+     }
+     .db{
+      display: flex;
+      width: 100%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      gap: 3vw;
+     }
+     .db p{
+      font-size: 17px;
+     }
+     .i i{
+      background-color:#6784FF ;
+      color: white;
+    padding: 8px;
+      border-radius: 70%;
+      text-align: center;
+      font-size: 23px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+     }
+     .i i:hover{
+      background-color:#EA79FF ;
+     }
+     .btn button{
+      text-align: center;
+      color: white;
+      font-family: "Krona One", serif;
+    background-color:#FF5C00 ;
+    border: none;
+   
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+     }
+     .btn button:hover{
+      background-color:#6784FF ;
+  
+     }
+     .cont{
+      padding-top: 190px;
+     }
+     .btn .a{
+      text-align: center;
+      color: white;
+      font-family: "Krona One", serif;
+    background-color:#6784FF ;
+    border: none;
+   
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+     }
+     .btn .a:hover{
+      background-color: #FF5C00;
+  
+     }
+
+           /* 3rd Sectaion */
+
+           .skill{
+            display: flex;
+            width: 100%;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
+            margin-top: 60px;
+           }
+           .ed{
+            width: 25%;
+           }
+           .ed h1{
+            color: #6784FF;
+            font-family: "Krona One", serif;
+            font-weight: 500;
+            padding-bottom: 30px;
+           }
+           .one h3{
+            color: #6784FF;
+           }
+           .one {
+            padding-bottom: 20px;
+           }
+            .o{
+            padding-left: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(179, 179, 179);
+           }
+           .o h2{
+            font-size: 14px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         padding-bottom: 10px;
+           }
+           .o p{
+           padding-left: 30px;
+           }
+
+           .ex{
+            width: 25%;
+           }
+           .ex h1{
+            color: #6784FF;
+            font-family: "Krona One", serif;
+            font-weight: 500;
+            padding-bottom: 30px;
+           }
+
+           .sk{
+            width: 30%;
+           }
+           .sk h1{
+            color: #6784FF;
+            font-family: "Krona One", serif;
+            font-weight: 500;
+            padding-bottom: 30px;
+           }
+           .sev{
+            background-color:#EA6CFF ;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 10px;
+           }
+           .c{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           }
+           .sev p{
+            color: white;
+          
+           }
+         
+           .sk{
+            margin-top: -140px;
+           }
+        
+
+           /* 4th section */
+
+           .four{
+           width: 100%;
+           height: 70vh;
+           background: linear-gradient(#9e05f7, 
+           #6783ff6b);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           }
+           .four h1{
+            text-align: center;
+            text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    padding-top: 10px;
+           }
+           .four p{
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           line-height: 20px;
+           padding-top: 10px;
+           }
+           .four button{
+            text-align: center;
+            color: white;
+            font-family: "Krona One", serif;
+          background-color:#FF5C00 ;
+          border: none;
+         
+          margin-top: 30px;
+          padding: 15px 30px;
+          font-size: 16px;
+          border-radius: 5px;
+          transition: 0.5s;
+          margin-left: 320px;
+           }
+           .f button:hover{
+            background-color: #6784FF;
+           }
+
+
+
+           /* five Section Disg */
+
+
+     .dis{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 130vh;
+      background-color:#ECF6FA ;
+      gap: 2vw;
+     }      
+     .cd{
+      width: 18%;
+    
+     }
+     .tow .cd{
+      width:20%;
+     }
+     .cd img{
+      width: 150px;
+     }
+     .cd p{
+      text-align: center;
+     }
+     .tow{
+      width: 25%;
+ 
+     }
+     .d{
+      width: 80%;
+      margin-top: 20px;
+     }
+     .d img{
+      width: 200px;
+      margin: auto;
+      display: block;
+     }
+     .d p{
+      text-align: center;
+
+ padding-top: 15px;
+     }
+     .d h1{
+      text-align: center;
+      color: #EA6CFF;
+      font-family: "Krona One", serif;
+      font-size: 20px;
+     }
+     .tow h2{
+      color: #6784FF;
+      font-family: "Krona One", serif;
+      font-size: 26px;
+     }
+     .tow p{
+  font-size: 16px;
+   line-height: 23px;
+     }
+     .d:hover{
+      background: linear-gradient(#9e05f7, 
+      #e910e26b);
+    padding-bottom: 60px;
+    padding-top: 30px;
+ border-radius: 30px;
+ color: #FBFBFE;
+ box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.378);
+     }
+     .d h1:hover{
+      color: white;
+     }
+     .cda img{
+      width: 200px;
+      margin: auto;
+      display: block;
+     }
+     .cda{
+      width: 20%;
+      background: linear-gradient(#9e05f7, 
+      #e910e26b);
+      border-radius: 20px;
+      padding-bottom: 30px;
+      padding-top: 20px;
+     }
+     .cda h1{
+      text-align: center;
+      color: #ffffff;
+      font-family: "Krona One", serif;
+      font-size: 20px;
+     }
+     .cda p{
+      text-align: center;
+      padding-top: 15px;
+      font-size: 16px;
+   line-height: 23px;
+   color: #FBFBFE;
+   
+     }
+     .cdb{
+      width: 20%;
+          margin-top: 270px;
+     }
+     .cdb h1{
+      text-align: center;
+      color: #EA6CFF;
+      font-family: "Krona One", serif;
+      font-size: 20px;
+     }
+     .cdb img{
+      width: 200px;
+      margin: auto;
+      display: block;
+     }
+     .cdb p{
+      font-size: 16px;
+       line-height: 23px;
+       text-align: center;
+         }
+         .cdb:hover{
+          background: linear-gradient(#9e05f7, 
+          #e910e26b);
+        padding-bottom: 60px;
+        padding-top: 30px;
+     border-radius: 30px;
+     color: #FBFBFE;
+     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.378);
+         }
+
+         .cdc{
+          width: 20%;
+            
+         }
+         .cdc h1{
+          text-align: center;
+          color: #EA6CFF;
+          font-family: "Krona One", serif;
+          font-size: 20px;
+         }
+         .cdc img{
+          width: 200px;
+          margin: auto;
+          display: block;
+         }
+         .cdc p{
+          font-size: 16px;
+           line-height: 23px;
+           text-align: center;
+             }
+             .cdc:hover{
+              background: linear-gradient(#9e05f7, 
+              #e910e26b);
+            padding-bottom: 60px;
+            padding-top: 30px;
+         border-radius: 30px;
+         color: #FBFBFE;
+         box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.378);
+             }
+
+ 
+
+             /* Contact */
+
+             .say h2{
+                 padding-top: 50px;
+                 padding-bottom: 20px;
+                 text-align: center;
+                 color: #EA6CFF;
+
+             }
+             .say h1{
+              text-align: center;
+             }
+             .say h1 span{
+              color: #FF5C00;
+             }
+             .say h1 span i{
+              color: #FF5C00;
+             }
+             .say p{
+              text-align: center;
+             
+             }
+
+             .contact{
+              display: flex;
+              width: 100%;
+              height: 70vh;
+              justify-content: center;
+              align-items: center;
+             }
+             .conta{
+              width: 50%;
+             }
+             .boxx{
+              width: 50%;
+             }
+             .hom{
+            width: 380px;
+            background: linear-gradient(#9e05f7, 
+              #e910e26b);
+            display: flex;
+             margin-left: 90px;
+             padding-top: 30px;
+             padding-bottom: 30px;
+             border-radius: 10px;
+             align-items: center;
+             justify-content: center;
+             gap: 1vw;
+             margin-top: 10px;
+             }
+             .hom h2{
+              color: #FBFBFE;
+              font-size: 16px;
+
+             }
+             .hom i{
+              color: #FF5C00;
+              width: 30px;
+             }
+             .conta{
+              display: inline-block;
+              margin-top: 30px;
+              width: 50%;
+             }
+             .conta input{
+              width: 350px;
+              height: 40px;
+              margin-top: 10px;
+              background-color: #e5e5e55f;
+              border-radius: 10px;
+              border: solid 1px black;
+              padding-left: 10px;
+             }
+             .conta textarea{
+              width: 350px;
+              height: 100px;
+              background-color: #e5e5e55f;
+              border-radius: 10px;
+              border: solid 1px black;
+              margin-top: 10px;
+              padding-left: 10px;
+              padding-top: 10px;
+             }
+             .conta button{
+
+             }
+             .conta button{
+              text-align: center;
+              color: white;
+              font-family: "Krona One", serif;
+            background-color:#FF5C00 ;
+            border: none;
+           
+          
+            padding: 10px 22px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.5s;
+            margin-top: 10px;
+           
+             }
+             .conta button:hover{
+              background-color: #6784FF;
+             }
+             .boxx h1{
+              padding-left: 90px;
+              font-size: 25px;
+             }
+
+
+             /*Mobile Code  */
+             @media (max-width: 600px) {
+
+                  header nav{
+                    display: none;
+                  }
+                  header{
+                    
+                  }
+                  main{
+                    width: 100%;
+                    height: 100vh;
+                    padding-bottom: 70px;
+                  }
+                  .contant h2{
+                    margin-top: 260px;
+                    font-size: 20px;
+                  }
+                  header .logo img{
+                    width: 30%;
+                  }
+                  .contant h1{
+                    font-size: 20px;
+                  }
+                  .secnd{
+                    flex-direction: column;
+                  }
+                  .cont{
+                    margin-top: 90px;
+                    width: 100%;
+                    height: 50%;
+                  }
+                  .img{
+                    width: 100%;
+                    height: 100vh;
+                  }
+                  .skill{
+                    flex-direction: column;
+                    width: 80%;
+                    height: 80vh;
+                  }
+                  .db
+               
+       .contant button{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+  background-color:#FF5C00 ;
+  border: none;
+padding-bottom: 0px;
+  font-size: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-bottom: 50px;
+   }
+
+   .contant p{
+    font-size: 14px;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin: auto;
+   }
+
+   .secnd{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      background-color:#ECF6FA ;
+ 
+     }    
+     .img{
+      width: 80%;
+      height: 100vh;
+     }   
+     .img img{
+      width: 100%;
+    padding-top: 340px;
+     }   
+     
+     .f button{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", serif;
+  background-color:#FF5C00 ;
+  border: none;
+margin: auto;
+margin-left: 80px;
+margin-top: 40px;
+  padding: 9px 40px;
+  font-size: 11px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-bottom: 50px;
+   }
+
+     .cont{
+      width: 80%;
+      height: 80vh;
+      margin-top: 300px;
+     }
+.ed{
+margin-top: 700px;
+  width: 80%;
+  height: 80vh;
+}
+.ex{
+  margin-top: 230px;
+  width: 80%;
+ 
+}
+.tow h1{
+  margin-top: 1200px;
+}
+.skill{
+  margin-top: 1200px;
+}
+.four{
+  width: 100%;
+ margin-top: 900px;
+ height: 100vh;
+}
+.f h1{
+  font-size: 18px;
+  width: 300px;
+  padding-top: 60px;
+  margin: auto;
+}
+.f p{
+    font-size: 14px;
+  width: 300px;
+  margin: auto;
+}
+.dis{
+  flex-direction: column;
+  margin-top: 00px;
+}
+.d{
+width: 100%;
+height: 380px;
+}
+.d h1{
+  margin-top: 0px;
+}
+.tow{
+  width: 80%;
+  margin-top: 1400px;
+}
+.sk{
+ margin-top: 50px; 
+ width: 80%;
+}
+
+.say{
+  margin-top: 1400px;
+}
+.cda{
+  width: 80%;
+
+}.cdb{
+  width: 80%;
+  margin-top: 50px;
+
+}.cdc{
+  width: 80%;
+
+}
+.contact{
+  margin-top: 100px;
+  flex-direction: column;
+}
+  .boxx{
+    margin-top: 400px;
+    width: 100%;
+  }
+ 
+  .boxx{
+              width: 100%;
+              margin-right: 90px;
+             }
+             .hom{
+            width: 300px;
+            background: linear-gradient(#9e05f7, 
+              #e910e26b);
+            display: flex;
+           
+         
+             padding-bottom: 30px;
+             border-radius: 10px;
+             align-items: center;
+             justify-content: center;
+             gap: 1vw;
+      
+             }
+             .conta{
+
+             }
+              .conta{
+              display: inline-block;
+              margin-top: 30px;
+              width: 70%;
+              margin-right: 90px;
+             }
+             }
